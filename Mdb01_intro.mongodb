@@ -82,6 +82,8 @@ db.students.insertOne({"suanki_tarih":new Date()});
 use("school");
 db.students.insertOne({"ad": "mehmet", "soyad": "akgül", "yas": 41, "tarih":new ISODate().getMonth()});
 
+use("school")
+db.students.find()
 
 
 
