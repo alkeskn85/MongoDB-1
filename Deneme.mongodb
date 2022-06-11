@@ -13,19 +13,20 @@ show dbs
 // 2) Trick...Veritabani tanimlamak veya icine girmek icin use tablo ismi hep açık olmalı, sorgu yaparken sadece sorgu seçili olmamalı. aksi halde default "test" db içinde sorgu devam eder...
 use("Keskin_As")
 
-show dbs
+
 
 
 //-----------------------------------------------------------------
 // 3) Icinde bulundugumuz (aktif) Veritabanini gormek icin
 // -----------------------------------------------------------------
-
-
+use("Keskin_As")
+db
 
 // -----------------------------------------------------------------
 // 4) Aktif olan veritabaninda bir collection olusturmak icin
 // -----------------------------------------------------------------
-
+use("Keskin_As")
+db.createCollection("persoel")
 
 
 
