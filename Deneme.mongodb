@@ -1,0 +1,11 @@
+use("Keskin")
+
+show dbs
+
+
+use("Keskin")
+db;
+
+use("Keskin")
+db.createCollection("Personel")
+
