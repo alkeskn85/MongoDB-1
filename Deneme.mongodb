@@ -14,8 +14,6 @@ show dbs
 use("Keskin_As")
 
 
-
-
 //-----------------------------------------------------------------
 // 3) Icinde bulundugumuz (aktif) Veritabanini gormek icin
 // -----------------------------------------------------------------
@@ -33,6 +31,14 @@ db.createCollection("persoel")
 // -----------------------------------------------------------------
 // 5) Aktif olan veritabanini silmek icin  
 // ----------------------------------------------------------------
+use("test")
+db
+
+use("test")
+db.createCollection("urunler")
+
+show dbs
+
 use("test");
 db.dropDatabase();
 
